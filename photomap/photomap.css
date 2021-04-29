@@ -1,0 +1,16 @@
+/* for fullscreen map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* for fullscreen map */
+html, body, #map {
+  height: 100%;
+  width: 100%;
+}
+
+/* let the image appear bigger in the popup */
+.modal-body img {
+  max-width: 100%;
+}
