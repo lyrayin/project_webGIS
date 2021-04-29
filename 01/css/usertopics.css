@@ -1,0 +1,105 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway';
+}
+
+#timeslider {
+  /*
+  width: 1225px;
+  margin-left: 50px;
+  margin-right: 150px;
+  margin-top: 30px;
+  */
+  width: 695px;
+  margin-left: 60px;
+  margin-right: 150px;
+}
+
+#map {
+  /*
+  width: 1375px;
+  height: 750px;
+
+
+  */
+  width: 710px;
+  height: 418px;
+}
+
+#legend {
+  height: 300px;
+  font-size: 18px;
+  padding-top: 200px;
+  padding-left: 120px;
+  /*
+
+  font-weight: normal;
+  font-style: normal;
+  */
+}
+
+.dropdown{
+  font-size: 18px;
+  padding: 10px 8px 10px 14px;
+  background: #fff;
+  position: relative;
+}
+
+.legendQuant{
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+.SvgOverlay {
+
+}
+
+.SvgOverlay,.SvgOverlay svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.SvgOverlay path {
+  stroke: Orange;
+  stroke-width: 0px;
+  fill: Red;
+  /* 	fill-opacity: .3; */
+}
+
+#topicwords1, #topicwords2, #topicwords3 , #topicwords4, #topicwords5, #topicwords6, #topicwords7{
+  border-style: solid;
+  border-color: #d6d6d6;
+  border-width: thin;
+  margin-top: 10px;
+}
+
+.axis path,.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}

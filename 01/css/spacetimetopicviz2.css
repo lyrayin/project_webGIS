@@ -1,0 +1,123 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway';
+}
+
+#map {
+  width: 1400px;
+  height: 1000px;
+}
+
+.SvgOverlay {
+
+}
+
+.SvgOverlay,.SvgOverlay svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.SvgOverlay path {
+  stroke: Orange;
+  stroke-width: 0px;
+  fill: Red;
+  /* 	fill-opacity: .3; */
+}
+
+#timeslider {
+  width: 1250px;
+  margin-left: 50px;
+  margin-right: 150px;
+  margin-top: 30px;
+}
+
+#time {
+  font-size: 30px;
+}
+
+#topics {
+  /* 	border: 1px #888888 solid; */
+  width: 360px;
+  height: 240px;
+  /* 	float: left; */
+  text-decoration: none;
+  color: #000;
+  background: #F6F6F6;
+  display: table-cell;
+  float: left;
+}
+
+#topwords{
+  margin-top: 30px;
+}
+
+#topicwords {
+  border-style: solid;
+  border-color: #d6d6d6;
+  border-width: thin;
+  margin-top: 20px;
+}
+
+.axis path,.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+table {
+  width: 400px;
+  height: 960px;
+}
+
+th {
+  font-weight: normal;
+  text-align: right;
+  padding-right: 6px;
+  min-width: 43px;
+}
+
+thead td {
+  cursor: s-resize;
+}
+
+tbody tr:first-child td {
+  padding-top: 2px;
+}
+
+tbody td {
+  padding: 0;
+  border-left: solid 1px #000;
+  padding-right: 6px;
+}
+
+tbody rect {
+  fill: purple;
+}
+
+tbody tr:hover rect {
+  fill: brown;
+}
